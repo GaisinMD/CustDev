@@ -1,0 +1,23 @@
+.header-menu-list {
+  @include zero-list;
+  @include montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-menu-list__item a {
+  text-decoration: none;
+  color: $white;
+  width: 100%;
+}
+
+.header-menu-list__item:last-child a {
+  margin-right: 0;
+}
+
+.header-menu-list__item a:hover {
+  text-shadow: 0 0 1.5px $white, 0 0 1.5px $white;
+}

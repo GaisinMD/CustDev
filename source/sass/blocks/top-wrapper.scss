@@ -1,0 +1,15 @@
+.top-wrapper {
+  padding-top: 33px;
+}
+
+@media (max-width: $tablet-max-width) {
+  .top-wrapper {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: $mobile-max-width) {
+  .top-wrapper {
+    padding-top: 29px;
+  }
+}

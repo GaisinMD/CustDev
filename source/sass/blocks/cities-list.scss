@@ -1,0 +1,24 @@
+.cities-list {
+  @include zero-list;
+  @include montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cities-list__item a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+}
+
+.cities-list__item a:hover {
+  opacity: 0.5;
+}
+
+.cities-list__item:first-child a {
+  font-weight: 700;
+  color: $blue;
+}

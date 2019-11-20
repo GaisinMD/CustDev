@@ -1,0 +1,20 @@
+.header {
+  @include margin-auto;
+  display: flex;
+  max-width: 1175px;
+}
+
+.header__cities-list {
+  width: 27.4%;
+  margin-right: 158px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  width: 40.17%;
+}
+
+.header__button {
+  margin-left: auto;
+}
