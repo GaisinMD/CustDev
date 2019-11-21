@@ -1,8 +1,9 @@
 .header {
   @include margin-auto;
   display: flex;
+  position: relative;
   max-width: 1175px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .header__cities-list {

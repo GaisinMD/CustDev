@@ -1,17 +1,17 @@
 .cities-list {
   @include zero-list;
-  @include montserrat;
   font-size: 14px;
   line-height: 17px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  // justify-content: space-between;
 }
 
 .cities-list__item a {
   text-transform: uppercase;
   text-decoration: none;
   color: $white;
+  margin-left: 25px;
 }
 
 .cities-list__item a:hover {
@@ -19,6 +19,7 @@
 }
 
 .cities-list__item:first-child a {
+  margin-left: 0;
   font-weight: 700;
   color: $blue;
 }

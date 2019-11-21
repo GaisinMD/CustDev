@@ -1,17 +1,17 @@
 .top-wrapper {
   position: relative;
   background: linear-gradient(90deg, $white 50%, transparent 0),
-    linear-gradient($blue 662px, #eaf2fd 662px, #eaf2fd 717px, transparent 0);
+    linear-gradient($blue 662px, $grey 662px, $grey 717px, transparent 0);
   background-size: 100% 100%;
-  z-index: -2;
+  z-index: 1;
 }
 
 .top-wrapper__element {
   @include margin-auto;
   position: relative;
-  padding-top: 33px;
+  padding-top: 31px;
+  padding-bottom: 50px;
   max-width: 1440px;
-  height: 800px;
 }
 
 .top-wrapper__element::before {
@@ -25,7 +25,7 @@
   background-image: url("../img/top-background.png");
   background-repeat: no-repeat;
   background-position: center top;
-  z-index: -1;
+  z-index: 2;
 }
 
 @media (max-width: $tablet-max-width) {

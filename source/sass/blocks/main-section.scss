@@ -1,0 +1,18 @@
+.main-section {
+  @include margin-auto;
+  display: flex;
+  position: relative;
+  max-width: 1100px;
+  z-index: 2;
+}
+
+.main-section__review {
+  margin-top: 367px;
+  margin-left: 15px;
+}
+
+.main_section__promo {
+  margin-top: 86px;
+  margin-left: 324px;
+  width: 552px;
+}

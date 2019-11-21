@@ -1,0 +1,55 @@
+.review {
+  color: $blue;
+  min-height: 231px;
+  width: 231px;
+  border-radius: 50%;
+  background: radial-gradient(68.31% 68.31% at 50% 50%, #f9fbff 0%, #cadef9 100%), $white;
+  box-shadow: 0 10px 50px #d6e2ff;
+}
+
+.review h2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 47px;
+  margin-bottom: 0;
+  margin-left: 83px;
+}
+
+.review__grade {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 52px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 51px;
+}
+
+.review__name {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 53px;
+}
+
+.review__nick {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 9px;
+  margin-left: 80px;
+}
+
+.review__anchor {
+  text-decoration: none;
+  color: $blue;
+  font-size: 10px;
+  line-height: 20px;
+  margin-left: 74px;
+}
+
+.review__anchor:hover {
+  opacity: 0.5;
+}
