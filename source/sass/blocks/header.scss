@@ -2,6 +2,7 @@
   @include margin-auto;
   display: flex;
   max-width: 1175px;
+  z-index: 1;
 }
 
 .header__cities-list {
