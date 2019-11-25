@@ -43,3 +43,9 @@
     width: 160px;
   }
 }
+
+@media (max-width: $mobile-max-width) {
+  .button--record {
+    color: $blue;
+  }
+}

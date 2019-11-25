@@ -28,3 +28,20 @@
     width: 61.72%;
   }
 }
+
+@media (max-width: $mobile-max-width) {
+  .main-section {
+    flex-direction: column;
+  }
+
+  .main-section__review {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .main_section__promo {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+}

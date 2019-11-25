@@ -34,3 +34,13 @@
     margin-left: 11.35%;
   }
 }
+
+@media (max-width: $mobile-max-width) {
+  .header {
+    margin-bottom: 56px;
+  }
+
+  .header__button {
+    margin-left: 2.5%;
+  }
+}

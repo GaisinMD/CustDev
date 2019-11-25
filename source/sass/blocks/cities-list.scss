@@ -51,3 +51,9 @@
     border-top: 3px solid $blue;
   }
 }
+
+@media (max-width: $mobile-max-width) {
+  .cities-list {
+    display: none;
+  }
+}

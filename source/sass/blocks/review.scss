@@ -53,3 +53,10 @@
 .review__anchor:hover {
   opacity: 0.5;
 }
+
+@media (max-width: $mobile-max-width) {
+  .review {
+    order: 2;
+    margin-left: 36px;
+  }
+}

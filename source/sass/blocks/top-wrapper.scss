@@ -33,7 +33,17 @@
 }
 
 @media (max-width: $mobile-max-width) {
+  .top-wrapper {
+    background: url("../img/top-background.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: $grey;
+  }
+
   .top-wrapper__element {
-    padding-top: 29px;
+    padding-top: 19px;
+    padding-left: 8px;
+    width: 100%;
+    min-width: 320px;
   }
 }
