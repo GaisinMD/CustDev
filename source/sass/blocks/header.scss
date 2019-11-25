@@ -3,7 +3,6 @@
   display: flex;
   position: relative;
   max-width: 1175px;
-  z-index: 3;
 }
 
 .header__cities-list {
@@ -19,4 +18,19 @@
 
 .header__button {
   margin-left: auto;
+}
+
+@media (max-width: $tablet-max-width) {
+  .header__cities-list {
+    width: 21.6%;
+    margin-right: 0;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__button {
+    margin-left: 11.35%;
+  }
 }

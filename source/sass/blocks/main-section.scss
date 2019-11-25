@@ -3,7 +3,6 @@
   display: flex;
   position: relative;
   max-width: 1100px;
-  z-index: 2;
 }
 
 .main-section__review {
@@ -15,4 +14,17 @@
   margin-top: 86px;
   margin-left: 324px;
   width: 552px;
+}
+
+@media (max-width: $tablet-max-width) {
+  .main-section__review {
+    margin-top: 400px;
+    margin-left: 45px;
+  }
+
+  .main_section__promo {
+    margin-top: 91px;
+    margin-left: 2.47%;
+    width: 61.72%;
+  }
 }

@@ -29,6 +29,24 @@
 }
 
 .promo__button {
-  margin-left: 13px;
+  margin-left: 15px;
 }
 
+@media (max-width: $tablet-max-width) {
+  .promo h2 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 19px;
+  }
+
+  .promo__bold-text {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 32px;
+    width: 96%;
+  }
+
+  .promo__text {
+    margin-bottom: 46px;
+  }
+}

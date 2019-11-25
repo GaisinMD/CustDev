@@ -35,3 +35,11 @@
   min-height: 51px;
   box-shadow: 0 0 0 11px rgba(100, 226, 205, 0.5);
 }
+
+@media (max-width: $tablet-max-width) {
+  .button--record {
+    background-color: transparent;
+    color: $white;
+    width: 160px;
+  }
+}

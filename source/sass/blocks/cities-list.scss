@@ -4,7 +4,6 @@
   line-height: 17px;
   display: flex;
   align-items: center;
-  // justify-content: space-between;
 }
 
 .cities-list__item a {
@@ -22,4 +21,33 @@
   margin-left: 0;
   font-weight: 700;
   color: $blue;
+}
+
+@media (max-width: $tablet-max-width) {
+  .cities-list {
+    margin-left: 16px;
+  }
+
+  .cities-list__item {
+    display: none;
+  }
+
+  .cities-list__item:first-child {
+    display: block;
+  }
+
+  .cities-list__item:first-child a {
+    position: relative;
+  }
+
+  .cities-list__item:first-child a::before {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: calc(100% + 15px);
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top: 3px solid $blue;
+  }
 }
