@@ -1,0 +1,19 @@
+.advantages {
+  @include margin-auto;
+  display: flex;
+  margin-top: 84px;
+  width: 1175px;
+}
+
+.advantages h2 {
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: bold;
+  margin-top: 145px;
+  width: 510px;
+}
+
+.advantages__list {
+  @include zero-list;
+  width: 660px;
+}
