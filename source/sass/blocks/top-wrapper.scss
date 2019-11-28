@@ -19,6 +19,7 @@
 
 @media (max-width: $tablet-max-width) {
   .top-wrapper {
+    padding-bottom: 0;
     background: url("../img/top-background.png");
     background-repeat: no-repeat;
     background-position: -18px top;
